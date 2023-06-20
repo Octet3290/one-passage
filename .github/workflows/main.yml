@@ -21,4 +21,4 @@ jobs:
         aws-region: us-west-2
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync . s3://onepassage --delete
+      run: aws s3 sync . s3://onepassage/01-Login --delete
