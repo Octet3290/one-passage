@@ -12,7 +12,7 @@ export default function Home({appID}) {
     <>
     <passage-auth app-id={appID}></passage-auth>
     </>
-  )
+  );
 }
 
 export async function getStaticProps(){
